@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.loukil.Contactini">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoapp"
+        android:label="charity"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:screenOrientation="portrait" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".subcategoriemain"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".signup"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".souscategories"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TESTTEST"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".inscriptionpro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".reinitialisermotdepasse"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".connexion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profiles"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inscription"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

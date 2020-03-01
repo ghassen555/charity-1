@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardviewprofilesrow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    app:cardCornerRadius="25dp">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/background"
+
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/profilesrowimage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/profilesrowname"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:autoSizeTextType="uniform"
+
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/ic_action_username"
+            android:drawablePadding="8dp"
+            android:text="TextView"
+            android:textColor="#132437"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/profilesrowimage"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/profilesrowadresse"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:autoSizeTextType="uniform"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/ic_action_place"
+            android:drawablePadding="8dp"
+            android:text="TextView"
+            android:textColor="#132437"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/profilesrowimage"
+            app:layout_constraintTop_toBottomOf="@id/profilesrowname" />
+
+        <TextView
+            android:id="@+id/profilesrowtel"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/ic_action_phone"
+            android:drawablePadding="8dp"
+            android:autoSizeTextType="uniform"
+            android:text="TextView"
+            android:textColor="#132437"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/profilesrowimage"
+            app:layout_constraintTop_toBottomOf="@id/profilesrowadresse" />
+
+        <RatingBar
+            android:id="@+id/ratingavgprofiles"
+            style="@style/foodRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:isIndicator="true"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profilesrowimage" />
+
+        <TextView
+            android:id="@+id/categoryprofilerow"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:autoSizeTextType="uniform"
+            android:drawableLeft="@drawable/ic_action_work"
+            android:drawablePadding="8dp"
+            android:text="TextView"
+            android:textColor="#132437"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/profilesrowimage"
+            app:layout_constraintTop_toBottomOf="@+id/profilesrowtel" />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

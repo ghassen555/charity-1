@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Contactini</string>
+
+    <array name="categories">
+        <item>Agent immobilier</item>
+        <item>Électricité</item>
+        <item>Événement</item>
+        <item>Jardinage</item>
+        <item>Musique</item>
+        <item>Nettoyage</item>
+        <item>Plomberie</item>
+        <item>Sos</item>
+        <item>Sport</item>
+        <item>Sécurité</item>
+        <item>Transport</item>
+        <item>Vétérinaire</item>
+
+
+    </array>
+    <array name="cities">
+        <item>Ariana</item>
+        <item>Beja</item>
+        <item>Ben Arous</item>
+        <item>Bizerte</item>
+        <item>Gabes</item>
+        <item>Gafsa</item>
+        <item>Jendouba</item>
+        <item>Kairouan</item>
+        <item>Kasserine</item>
+        <item>Kebili</item>
+        <item>Kef</item>
+        <item>Mahdia</item>
+        <item>Manouba</item>
+        <item>Mednine</item>
+        <item>Monastir</item>
+        <item>Nabeul</item>
+        <item>Sfax</item>
+        <item>Sidi Bouzid</item>
+        <item>Siliana</item>
+        <item>Sousse</item>
+        <item>Tataouine</item>
+        <item>Tozeur</item>
+        <item>Tunis</item>
+        <item>Zaghouan</item>
+    </array>
+    <array name="profilecities">
+        <item>Tous</item>
+        <item>Ariana</item>
+        <item>Beja</item>
+        <item>Ben Arous</item>
+        <item>Bizerte</item>
+        <item>Gabes</item>
+        <item>Gafsa</item>
+        <item>Jendouba</item>
+        <item>Kairouan</item>
+        <item>Kasserine</item>
+        <item>Kebili</item>
+        <item>Kef</item>
+        <item>Mahdia</item>
+        <item>Manouba</item>
+        <item>Mednine</item>
+        <item>Monastir</item>
+        <item>Nabeul</item>
+        <item>Sfax</item>
+        <item>Sidi Bouzid</item>
+        <item>Siliana</item>
+        <item>Sousse</item>
+        <item>Tataouine</item>
+        <item>Tozeur</item>
+        <item>Tunis</item>
+        <item>Zaghouan</item>
+
+    </array>
+
+
+    <string name="title_activity_testtest">TESTTEST</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>

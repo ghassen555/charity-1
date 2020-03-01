@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "591338078184",
+    "firebase_url": "https://depanini2.firebaseio.com",
+    "project_id": "depanini2",
+    "storage_bucket": "depanini2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:591338078184:android:fe1020d6f56be7d8",
+        "android_client_info": {
+          "package_name": "com.loukil.depanini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "591338078184-gbk7at7ibk25csfonrladcjr3pgfbgmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.loukil.depanini",
+            "certificate_hash": "276b8eb059f4d69579306dad60c4d90d96a5f6aa"
+          }
+        },
+        {
+          "client_id": "591338078184-4tnj7qlg5sltfru8slmmg33i756b9d4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYIu7nusb2PJbjaOCwPVYytT7fgiW546Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "591338078184-4tnj7qlg5sltfru8slmmg33i756b9d4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
